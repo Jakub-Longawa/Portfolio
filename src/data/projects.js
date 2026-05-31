@@ -1,10 +1,12 @@
+import DemoITStudio_previer from '../assets/DemoITStudio-preview.png'
+
 export const projects = [
   {
-    title: 'Barber Studio',
-    description: 'Nowoczesna strona dla salonu barberskiego z systemem kontaktu i responsywnym designem.',
+    title: 'Demo IT Studio - DemoProject',
+    description: 'Nowoczesna strona demo dla hipotetycznej firmy IT z ofertą usług, sekcją technologii i formularzem kontaktowym.',
     tech: ['React', 'Bootstrap', 'Responsive Design'],
-    image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
+    image: DemoITStudio_previer,
+    link: 'demo-it-studio-demo-project.vercel.app',
   },
   {
     title: 'Restauracja Italiano',
