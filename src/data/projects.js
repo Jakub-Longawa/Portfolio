@@ -6,7 +6,7 @@ export const projects = [
     description: 'Nowoczesna strona demo dla hipotetycznej firmy IT z ofertą usług, sekcją technologii i formularzem kontaktowym.',
     tech: ['React', 'Bootstrap', 'Responsive Design'],
     image: DemoITStudio_previer,
-    link: 'demo-it-studio-demo-project.vercel.app',
+    link: 'https://demo-it-studio-demo-project.vercel.app',
   },
   {
     title: 'Restauracja Italiano',
