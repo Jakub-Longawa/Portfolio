@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { fadeUp } from '../data/animations';
 
-const FORMSPREE_ENDPOINT =
-  import.meta.env.VITE_FORMSPREE_ENDPOINT || 'https://formspree.io/f/xpqnbzqy';
+const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT
 
 const initialFormData = {
   name: '',
@@ -32,6 +31,7 @@ export default function Contact() {
       setFormError('');
     }
   };
+
 
   const validateForm = () => {
     if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
