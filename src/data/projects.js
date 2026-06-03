@@ -1,19 +1,20 @@
-import DemoITStudio_previer from '../assets/DemoITStudio-preview.png'
+import DemoITStudioPreview from '../assets/DemoITStudio-preview.png'
+import DemoFundacjaPreview from '../assets/DemoFundacja-preview.png'
 
 export const projects = [
   {
     title: 'Demo IT Studio - DemoProject',
     description: 'Nowoczesna strona demo dla hipotetycznej firmy IT z ofertą usług, sekcją technologii i formularzem kontaktowym.',
     tech: ['React', 'Bootstrap', 'Responsive Design'],
-    image: DemoITStudio_previer,
+    image: DemoITStudioPreview,
     link: 'https://demo-it-studio-demo-project.vercel.app',
   },
   {
-    title: 'Restauracja Italiano',
-    description: 'Elegancka strona restauracji z menu, galerią i sekcją rezerwacji.',
-    tech: ['React', 'Bootstrap', 'SEO Basics'],
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop',
-    link: '#',
+    title: 'Demo Fundacja - DemoProject',
+    description: 'Rozbudowana aplikacja React przedstawiająca stronę fundacji pomagającej zwierzętom. Projekt zawiera integrację z Contentful CMS, wielojęzyczność, funkcje dostępności WCAG 2.1 AA, system zbiórek, formularz kontaktowy oraz responsywny interfejs użytkownika.',
+    tech: ['React', 'WCAG 2.1 AA', 'CMS Contentful'],
+    image: DemoFundacjaPreview,
+    link: 'https://demo-fundacja-demo-project.vercel.app',
   },
   {
     title: 'FitCoach Landing Page',
